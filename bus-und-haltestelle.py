@@ -23,6 +23,6 @@ while(x):
 		print("Es befinden sich ", personen, " Personen im Bus.")
 		c = True
 	else:
-		print("Es können ", (personen -60), " Personen leider nicht mitfahren.")
 		personen = personen - 60
+		print("Es können ", personen, " Personen leider nicht mitfahren.")
 		c = True
